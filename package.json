@@ -1,20 +1,21 @@
 {
-  "name": "sass-demo",
+  "name": "expedius",
   "version": "0.0.1",
-  "description": "SASS Demo ",
+  "description": "SASS framework ",
   "scripts": {
-    "compile": "npm-run-all compile-sass clean-css",
-    "compile-sass": "sass sass/all.scss dist/css/styles.css",
+    "build": "npm-run-all compile-sass clean-css",
+    "compile-sass": "sass src/all.scss dist/css/styles.css",
     "clean-css": "cleancss -o dist/css/styles.min.css dist/css/styles.css"
   },
   "keywords": [
     "sass",
-    "demo",
+    "framework",
     "css",
-    "stylesheet"
+    "stylesheet",
+    "expedius"
   ],
   "author": "Matej",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "clean-css-cli": "^5.6.1",
     "css-minify": "^2.0.0",

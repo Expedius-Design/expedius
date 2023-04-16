@@ -1,0 +1,493 @@
+.button {
+  background-color: hsl(328deg, 51%, 50%);
+  border-color: hsl(328deg, 51%, 50%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button:hover {
+  background-color: hsl(328deg, 51%, 35%);
+  border-color: hsl(328deg, 51%, 35%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-outline {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(328deg, 51%, 50%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(328deg, 51%, 50%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-outline:hover {
+  background-color: hsl(328deg, 51%, 35%);
+  border-color: hsl(328deg, 51%, 50%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-outline[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-primary {
+  background-color: hsl(216deg, 100%, 55%);
+  border-color: hsl(216deg, 100%, 55%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-primary:hover {
+  background-color: hsl(216deg, 100%, 40%);
+  border-color: hsl(216deg, 100%, 40%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-primary[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-primary-outline {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(216deg, 100%, 55%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(216deg, 100%, 55%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-primary-outline:hover {
+  background-color: hsl(216deg, 100%, 40%);
+  border-color: hsl(216deg, 100%, 55%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-primary-outline[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-secondary {
+  background-color: hsl(0deg, 0%, 50%);
+  border-color: hsl(0deg, 0%, 50%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-secondary:hover {
+  background-color: hsl(0deg, 0%, 35%);
+  border-color: hsl(0deg, 0%, 35%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-secondary[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-secondary-outline {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(0deg, 0%, 50%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 50%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-secondary-outline:hover {
+  background-color: hsl(0deg, 0%, 35%);
+  border-color: hsl(0deg, 0%, 50%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-secondary-outline[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-light {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(0deg, 0%, 100%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 15%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-light:hover {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 15%);
+}
+.button-light[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-light-outline {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(0deg, 0%, 100%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-light-outline:hover {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 100%);
+  color: hsl(0deg, 0%, 15%);
+}
+.button-light-outline[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-dark {
+  background-color: hsl(0deg, 0%, 15%);
+  border-color: hsl(0deg, 0%, 15%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-dark:hover {
+  background-color: hsl(0deg, 0%, 30%);
+  border-color: hsl(0deg, 0%, 30%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-dark[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-dark-outline {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(0deg, 0%, 15%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 15%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-dark-outline:hover {
+  background-color: hsl(0deg, 0%, 15%);
+  border-color: hsl(0deg, 0%, 15%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-dark-outline[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-success {
+  background-color: hsl(147deg, 87%, 60%);
+  border-color: hsl(147deg, 87%, 60%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 15%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-success:hover {
+  background-color: hsl(138deg, 56%, 50%);
+  border-color: hsl(138deg, 56%, 50%);
+  color: hsl(0deg, 0%, 15%);
+}
+.button-success[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-success-outline {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(147deg, 87%, 60%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(147deg, 87%, 60%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-success-outline:hover {
+  background-color: hsl(138deg, 56%, 50%);
+  border-color: hsl(147deg, 87%, 60%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-success-outline[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-warning {
+  background-color: hsl(24deg, 100%, 60%);
+  border-color: hsl(24deg, 100%, 60%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 15%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-warning:hover {
+  background-color: hsl(24deg, 100%, 45%);
+  border-color: hsl(24deg, 100%, 45%);
+  color: hsl(0deg, 0%, 15%);
+}
+.button-warning[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-warning-outline {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(24deg, 100%, 60%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(24deg, 100%, 60%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-warning-outline:hover {
+  background-color: hsl(24deg, 100%, 45%);
+  border-color: hsl(24deg, 100%, 60%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-warning-outline[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-danger {
+  background-color: hsl(0deg, 100%, 60%);
+  border-color: hsl(0deg, 100%, 60%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 100%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-danger:hover {
+  background-color: hsl(0deg, 100%, 45%);
+  border-color: hsl(0deg, 100%, 45%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-danger[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-danger-outline {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(0deg, 100%, 60%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 100%, 60%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-danger-outline:hover {
+  background-color: hsl(0deg, 100%, 45%);
+  border-color: hsl(0deg, 100%, 60%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-danger-outline[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-info {
+  background-color: hsl(180deg, 60%, 60%);
+  border-color: hsl(180deg, 60%, 60%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(0deg, 0%, 15%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-info:hover {
+  background-color: hsl(180deg, 60%, 45%);
+  border-color: hsl(180deg, 60%, 45%);
+  color: hsl(0deg, 0%, 15%);
+}
+.button-info[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+.button-info-outline {
+  background-color: hsl(0deg, 0%, 100%);
+  border-color: hsl(180deg, 60%, 60%);
+  border-radius: 0.25rem;
+  border-style: solid;
+  border-width: 0.123rem;
+  color: hsl(180deg, 60%, 60%);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0.25rem;
+  padding: 0.75rem;
+  transition: 0.3s;
+  vertical-align: inherit;
+}
+.button-info-outline:hover {
+  background-color: hsl(180deg, 60%, 45%);
+  border-color: hsl(180deg, 60%, 60%);
+  color: hsl(0deg, 0%, 100%);
+}
+.button-info-outline[aria-disabled=true] {
+  background-color: hsl(0deg, 0%, 85%);
+  border-color: hsl(0deg, 0%, 85%);
+  color: hsl(0deg, 0%, 30%);
+  cursor: not-allowed;
+}
+
+.alert {
+  color: rgb(202, 241, 128);
+  background-color: rgb(250, 92, 0);
+}
+
+/*# sourceMappingURL=styles.css.map */
